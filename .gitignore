@@ -8,8 +8,34 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+env/
 
-# Local runtime artifacts
-*.log
-cloudflared
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution
+*.tar.gz
+*.whl
+
+# Cloudflared
+cloudflared
